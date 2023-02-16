@@ -1,0 +1,151 @@
+img {
+    width: 300px;
+    border-radius: 10px;
+    float: center;
+    margin-right: 15px;
+    border: 8px double #FFFFE0;
+}
+  
+  
+body {
+	background-image: linear-gradient(#90EE90, #FFFFFF);
+}
+
+
+h1 {
+	text-align: center;
+	font-family: "Lucida Handwriting", cursive;
+	
+}
+
+br {
+	display: block;
+	margin: 30px 0;
+	
+}
+
+button {
+	
+	background-color: #FFFFE0;
+	border:5px double;
+	font-size: 15pt;
+	
+	
+}
+   
+   
+.title{
+	
+	text-align: center;
+	color: seagreen;
+	
+}
+
+
+.plantname {
+	
+	font-family: "Papyrus", fantasy;
+	font-weight: bolder;
+	
+}
+
+
+.plantdesc{
+	font-size:20pt;
+	font-weight:bold;
+	color: #FFFFE0;
+	background-color: #87ab69;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 15px;
+	border:5px dashed #FFFFE0;
+	border-radius: 15px 50px;
+}
+.intro{
+	
+  text-align: center;
+  font-size: 13pt;
+  color: black;
+  font-weight: bold;
+  
+}
+.column {
+	
+  float: left;
+  width: 50%;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+div.list{
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  
+}
+ol.myOL{
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  color: seagreen;
+  font-size: 20px;
+}
+.table{
+  justify-content: center;
+  border: 4px solid;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  background-color: seagreen;
+  box-shadow: -5px -5px 3px; 
+  
+}
+.footer{
+  text-align: center;
+}
+a.externalLink{
+  color: forestgreen;
+  text-align: center;
+  display: block;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Aaron Brown" />
+    <meta
+      name="description"
+      content="This page contains an index of all my plants"
+    />
+    <title>Gymnocalycium Plant</title>
+    <link rel="icon" href="images/DSCN0417.JPG" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+	<script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+    </script>
+	
+  </head>
+  <body>
+    <h1 class="title">Plant database</h1>
+   <div>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="GymnocalyciumMihanovichii.html">Gymnocalycium Mihanovichii</a></li>
+          </ul>
+    </div>
+    <div>
+    <h2 class="intro">Some additonal Photos</h2>
+    <table class="table">
+      <tr>
+        <th>Name</th>
+        <th>Image</th>
+      </tr>
+      <tr>
+        <td>Pink Gymnocalycium</td>
+        <td><img src="images/PinkGymno.webp"></td>
+      </tr>
+            <tr>
+        <td>Orange Gymnocalycium</td>
+        <td><img src="images/OrangeGymno.webp"></td>
+      </tr>
+      
+      </table> 
+    
+    </div>
+    <div class=list>
+      <ol class="myOL">
+        <li>This plant grows as a globular mass, reaching about two inches in size.</li>
+        <li>It tends to produce offsets that grow around the base of the globe where the sides of the globular shape feature seams with prickly quills.</li>
+        <li>It has a thick base that makes the perfect host for the moon cactus.</li>
+        <li>Moon cactus is typically grafted to another cactus-like Hylocereus undatus commonly known as the dragon fruit cactus.</li>
+        <li>This plant may produce flowers from the sides giving it a blooming beauty but does not produce a scent.</li>
+      </ol>
+    </div>
+    <div>
+    <h3 class="intro">Click these links for additional inforamtion!</h3>
+    <a class="externalLink" href="https://succulentcity.com/gymnocalycium-mihanovichii/#:~:text=These%20cacti%20are%20succulent%20plants,sustain%20itself%20for%20several%20years." target="_blank">Succulent City!</a>
+    <a class="externalLink" href="https://myplantin.com/plant/761" target="_blank">My Plantin'</a>
+    </div>
+	<button onclick="toggleCSS()">Switch Style</button>
+  </body>
+  <footer class="footer">&copy;Copyright 2023</footer>
+</html>
+  
